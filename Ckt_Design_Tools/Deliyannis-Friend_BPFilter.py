@@ -18,7 +18,8 @@ print(f"\nFor a Deliyannis-Friend Active Bandpass Filter filtering at \n\tf0={f0
 # Optional Av adjustment if Non-inverting Negative Feedback is Applied
 # Select K from chart based on desired n order filter
 #
-# Order | K
+# Order
+#   n   | K
 #---------------------------------
 #   2   | 1.586
 #   4   | 1.152, 2.235
