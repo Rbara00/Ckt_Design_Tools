@@ -23,5 +23,10 @@ To Install required libraries:
 
 <img width="478" height="309" alt="image" src="https://github.com/user-attachments/assets/a6790ac9-721f-44dc-b74e-78ab161a6a98" />
 
+## Further References on Sallen Key Filters
+- https://www.ti.com/lit/an/sloa096/sloa096.pdf?ts=1756099537823
+- https://www.ti.com/lit/an/sloa024b/sloa024b.pdf
+- https://www.electronics-tutorials.ws/filter/sallen-key-filter.html
+- https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology
 
 
