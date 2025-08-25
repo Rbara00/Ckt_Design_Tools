@@ -1,11 +1,11 @@
 import math
 # Define Design Parameters
-f0=150  # [Hz]
-B=200   # [Hz]
+f0=100  # [Hz]
+B=10  # [Hz]
 H0=1   # Av DC Gain
 
 # Select arbituary values to solve
-C=10e-9 # Choose Standard value of C
+C=0.1e-6 # Choose Standard value of C
 
 # Solve for R1, R2, R3
 Q=f0/B
@@ -28,7 +28,7 @@ print(f"\nFor a Deliyannis-Friend Active Bandpass Filter filtering at \n\tf0={f0
 
 # Choose a Reasonable Rf2 (Resistor to GND) and solve for Negative Feedback Resistor Rf1
 K=1.586
-Rf2=10e3 # [Hz]
+Rf2=10000 # [ohms]
 Rf1=(K-1)*Rf2
 Av=(K*K)*(Rf2/(Rf1+Rf2))
 
